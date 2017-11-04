@@ -1,6 +1,6 @@
 {% set name = "pygments_anyscript" %}
-{% set version = "1.0.0" %}
-{% set sha256 = "a254b2474a9d775930ea988643e96feab6fc11ac062ace5dc6b3adc2b4d85566" %}
+{% set version = "1.1.0" %}
+{% set sha256 = "bb4372f96a258f2115231805d1daa9e775c545c283524dc109ea285d1c9bdb7f" %}
 
 package:
   name: {{ name|lower }}
