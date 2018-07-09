@@ -18,14 +18,15 @@ analysis.
 Current build status
 ====================
 
-Linux: [![Circle CI](https://circleci.com/gh/conda-forge/pygments_anyscript-feedstock.svg?style=shield)](https://circleci.com/gh/conda-forge/pygments_anyscript-feedstock)
-OSX: [![TravisCI](https://travis-ci.org/conda-forge/pygments_anyscript-feedstock.svg?branch=master)](https://travis-ci.org/conda-forge/pygments_anyscript-feedstock)
-Windows: [![AppVeyor](https://ci.appveyor.com/api/projects/status/github/conda-forge/pygments_anyscript-feedstock?svg=True)](https://ci.appveyor.com/project/conda-forge/pygments-anyscript-feedstock/branch/master)
+All platforms:
+[![noarch](https://img.shields.io/circleci/project/github/conda-forge/pygments_anyscript-feedstock/master.svg?label=noarch)](https://circleci.com/gh/conda-forge/pygments_anyscript-feedstock)
 
 Current release info
 ====================
-Version: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/pygments_anyscript/badges/version.svg)](https://anaconda.org/conda-forge/pygments_anyscript)
-Downloads: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/pygments_anyscript/badges/downloads.svg)](https://anaconda.org/conda-forge/pygments_anyscript)
+
+| Name | Downloads | Version | Platforms |
+| --- | --- | --- | --- |
+| [![Conda Recipe](https://img.shields.io/badge/recipe-pygments_anyscript-green.svg)](https://anaconda.org/conda-forge/pygments_anyscript) | [![Conda Downloads](https://img.shields.io/conda/dn/conda-forge/pygments_anyscript.svg)](https://anaconda.org/conda-forge/pygments_anyscript) | [![Conda Version](https://img.shields.io/conda/vn/conda-forge/pygments_anyscript.svg)](https://anaconda.org/conda-forge/pygments_anyscript) | [![Conda Platforms](https://img.shields.io/conda/pn/conda-forge/pygments_anyscript.svg)](https://anaconda.org/conda-forge/pygments_anyscript) |
 
 Installing pygments_anyscript
 =============================
@@ -70,6 +71,7 @@ To manage the continuous integration and simplify feedstock maintenance
 Using the ``conda-forge.yml`` within this repository, it is possible to re-render all of
 this feedstock's supporting files (e.g. the CI configuration files) with ``conda smithy rerender``.
 
+For more information please check the [conda-forge documentation](https://conda-forge.org/docs/).
 
 Terminology
 ===========
