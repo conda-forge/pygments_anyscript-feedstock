@@ -1,6 +1,6 @@
 {% set name = "pygments_anyscript" %}
-{% set version = "1.1.0" %}
-{% set sha256 = "bb4372f96a258f2115231805d1daa9e775c545c283524dc109ea285d1c9bdb7f" %}
+{% set version = "1.2.1" %}
+{% set sha256 = "280b9ca865d1ae82063585eca94fb05b84a3111a398278267d462bcb79de815f" %}
 
 package:
   name: {{ name|lower }}
@@ -13,7 +13,7 @@ source:
 
 build:
   noarch: python
-  number: 1
+  number: 0
   script: python -m pip install --no-deps --ignore-installed .
 
 requirements:
