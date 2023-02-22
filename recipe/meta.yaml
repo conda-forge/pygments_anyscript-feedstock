@@ -1,29 +1,25 @@
-{% set name = "pygments_anyscript" %}
-{% set version = "1.2.1" %}
-{% set sha256 = "280b9ca865d1ae82063585eca94fb05b84a3111a398278267d462bcb79de815f" %}
+{% set version = "1.3.0" %}
 
 package:
   name: {{ name|lower }}
   version: {{ version }}
 
 source:
-  fn: {{ name }}-{{ version }}.tar.gz
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: {{ sha256 }}
+  sha256: b7ea9e6851ffc54b39ab7624d564db03d9e8e0d9ea09ea5c1efab66766370392
 
 build:
   noarch: python
-  number: 2
-  script: python -m pip install --no-deps --ignore-installed .
+  script: {{ PYTHON }} -m pip install . -vv
+  number: 0
 
 requirements:
   host:
-    - pip
     - python
-    - setuptools
+    - pip
+    - flit_core >=3.4
   run:
     - python
-    - setuptools
     - pygments
 
 test:
@@ -49,5 +45,3 @@ about:
 extra:
   recipe-maintainers:
     - melund
-    - MateiSarivan
-    - KasperPRasmussen
