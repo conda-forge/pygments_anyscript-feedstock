@@ -1,4 +1,4 @@
-{% set version = "1.4.0" %}
+{% set version = "1.5.0" %}
 {% set name = "pygments_anyscript" %}
 
 
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: ef6989e5ec85350e36442da0cbadec07c41ea3d2e0d301bf2086e72deb6caaed
+  sha256: 6f3d1fb999892c4bbc224b78fa25c4085899ff57e599fd3cf2775a2ee726850a
 
 build:
   noarch: python
