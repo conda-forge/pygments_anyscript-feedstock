@@ -37,7 +37,7 @@ Current release info
 
 | Name | Downloads | Version | Platforms |
 | --- | --- | --- | --- |
-| [![Conda Recipe](https://img.shields.io/badge/recipe-pygments_anyscript-green.svg)](https://anaconda.org/conda-forge/pygments_anyscript) | [![Conda Downloads](https://img.shields.io/conda/dn/conda-forge/pygments_anyscript.svg)](https://anaconda.org/conda-forge/pygments_anyscript) | [![Conda Version](https://img.shields.io/conda/vn/conda-forge/pygments_anyscript.svg)](https://anaconda.org/conda-forge/pygments_anyscript) | [![Conda Platforms](https://img.shields.io/conda/pn/conda-forge/pygments_anyscript.svg)](https://anaconda.org/conda-forge/pygments_anyscript) |
+| [![Conda Recipe](https://img.shields.io/badge/recipe-pygments__anyscript-green.svg)](https://anaconda.org/conda-forge/pygments_anyscript) | [![Conda Downloads](https://img.shields.io/conda/dn/conda-forge/pygments_anyscript.svg)](https://anaconda.org/conda-forge/pygments_anyscript) | [![Conda Version](https://img.shields.io/conda/vn/conda-forge/pygments_anyscript.svg)](https://anaconda.org/conda-forge/pygments_anyscript) | [![Conda Platforms](https://img.shields.io/conda/pn/conda-forge/pygments_anyscript.svg)](https://anaconda.org/conda-forge/pygments_anyscript) |
 
 Installing pygments_anyscript
 =============================
